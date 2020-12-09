@@ -1,0 +1,109 @@
+main{
+  .story{
+    background: url('../uploads/earphone1.jpeg') no-repeat;
+    background-size: cover;
+    .text-box{
+      left: 50%;
+      transform: translate(-50%,-50%);
+      .learn-more{
+        a {
+          background-color: #f8f8f8;
+          color: #242424;
+
+          &:hover {
+            background-color: #242424;
+            color: #f8f8f8;
+          }
+        }
+      }
+    }
+  }
+  .panel{
+    .container{
+      max-width: 1280px;
+      margin: 40px auto;
+      padding: 0;
+      .item{
+        width: 33.33%;
+        margin-bottom: 30px;
+        .pic{
+          width: 335px;
+          height: 335px;
+          padding: 0;
+          a{
+            width: 100%;
+            height: 100%;
+            img{
+              width: 100%;
+            }
+          }
+        }
+        .info{
+          width: 335px;
+          height: 45px;
+          line-height: 45px;
+          border: 2px solid #e5e5e5;
+          padding: 0;
+          padding-left: 10px;
+          .info-hd{
+            .name{
+              font-weight: 400;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1279px){
+  main{
+    .panel{
+      .container{
+        .item{
+          width: 50%;
+          // .pic{
+          //   width: 72%;
+          // }
+          // .info{
+          //   border: 0;
+          //   text-align: center;
+          //   padding-top: 7px;
+          // }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1023px){
+  main{
+    .f-text-box{
+      height: 200px;
+      background-color: #000;
+      color: white;
+      h1{
+        font-size: 24px;
+      }
+      h2{
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width :767px){
+  main{
+    .story{
+      padding-top: 38.3%;
+    }
+    .panel{
+      .container{
+        .item{
+          width: 100%;
+        }
+      }
+    }
+  }
+}

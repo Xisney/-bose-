@@ -1,0 +1,71 @@
+main .story {
+  padding-top: 33.3%;
+  background: url("../uploads/new1.jpeg") no-repeat;
+  background-size: cover;
+}
+main .story .text-box {
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .story .text-box h1, main .story .text-box h2 {
+  color: #fff;
+}
+main .story .text-box h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+main .story .text-box h2 {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+main .panel .container {
+  max-width: 1280px;
+  margin: 120px auto;
+  padding: 0 12%;
+}
+main .panel .container .item {
+  width: 33.33%;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1279px) {
+  main .story .text-box h1, main .story .text-box h2 {
+    color: #fff;
+  }
+  main .story .text-box h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  main .story .text-box h2 {
+    font-size: 20px;
+  }
+  main .panel .container .item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  main .f-text-box {
+    height: 120px;
+    background-color: #000;
+    color: white;
+  }
+  main .f-text-box h1 {
+    font-size: 24px;
+  }
+  main .f-text-box h2 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  main .f-text-box h1 {
+    font-size: 20px;
+  }
+  main .f-text-box h2 {
+    font-size: 16px;
+  }
+  main .panel .container .item {
+    width: 100%;
+  }
+}

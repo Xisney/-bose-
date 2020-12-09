@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul,ol{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+input{
+  outline: none;
+}
+
+div,
+input,
+p,
+span,
+ul,
+li
+a{
+  box-sizing: border-box;
+}
+
